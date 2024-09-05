@@ -1,0 +1,85 @@
+
+
+body {
+    margin: 0;
+    background-color: #012043;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background-color: #012043;
+    padding: 10px;
+}
+
+.cabecalho {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.caixa-busca {
+    border: solid black 2px;
+    background-color: #D34646;
+    padding: 15px;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0px auto;
+}
+
+.caixa-busca input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.caixa-busca button {
+    border-radius: 7px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.luz {
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+.visor {
+    margin-top: 10px;
+    background-color: rgb(212, 212, 228);
+    padding: 10px;
+    border: solid rgb(255, 255, 255) 2px;
+    min-height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom-left-radius: 30px;
+}
+
+.pokedex {
+    border: solid black px;
+    background-color: #D34646;
+    padding: 15px;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    min-width: 150px;
+    max-width: 170px;
+    min-height: 200px;
+    max-height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#nomePokemon {
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+}
+
